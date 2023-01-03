@@ -18,6 +18,7 @@ public class ActivityCollector {
     }
 
     public static void finishAll(){
+        //这个是全部删除
         for(Activity activity : activities){
             if(!activity.isFinishing()){
                 activity.finish();
